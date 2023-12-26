@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  background: center/cover fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#background_image {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(1.5px);
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: 2px solid black;
+}
+
+#boxA {
+  background-color: grey;
+  opacity: 80%;
+}
+#boxS {
+  background-color: grey;
+  opacity: 80%;
+}
+#boxD {
+  background-color: grey;
+  opacity: 80%;
+}
+#boxF {
+  background-color: grey;
+  opacity: 80%;
+}
+#boxG {
+  background-color: grey;
+  opacity: 80%;
+}
+#boxH {
+  background-color: grey;
+  opacity: 80%;
+}
